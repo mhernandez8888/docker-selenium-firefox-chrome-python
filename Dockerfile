@@ -8,7 +8,5 @@ RUN chmod a+x /usr/bin/chromedriver
 RUN npm install -g phantomjs
 ADD . /tmp/
 WORKDIR /tmp/
-RUN python setup.py install
-
 RUN pip install virtualenv
 
